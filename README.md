@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-https://todo-list-five-delta-42.vercel.app/ 
+<a href="https://todo-list-five-delta-42.vercel.app/" target="_blank">https://todo-list-five-delta-42.vercel.app/</a>
 
 Todo é uma aplicação Front-End web e mobile construída como forma de desafio proposto pela [Rocketseat](https://www.rocketseat.com.br/ "Site da RocketSeat").
 
