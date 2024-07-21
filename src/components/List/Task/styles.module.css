@@ -1,0 +1,88 @@
+.task {
+  width: 100%;
+  min-height: 4rem;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  + .task {
+    margin-top: .75rem;
+  }
+
+  > div {
+    
+    label {
+      display: flex;
+      align-items: flex-start;
+      gap: .5rem;
+      padding: 1rem;
+
+      input {
+        display: none;
+      }
+
+      .checkbox {
+        border-radius: 100%;
+        min-height: 1.125rem;
+        min-width: 1.125rem;
+        margin-top: .2rem;
+
+        transition: 0.2s all;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .checkbox-unchecked {
+        border: 2px solid var(--blue);
+      }
+      
+      .checkbox-unchecked:hover {
+        background-color: rgba(30, 111, 159, 0.2);
+      }
+      
+      .checkbox-checked {
+        border: 2px solid var(--purple-dark);
+        background-color: var(--purple-dark);
+      }
+      
+      .checkbox-checked:hover {
+        border: 2px solid var(--purple);
+        background-color: var(--purple);
+      }
+     
+    }
+
+    .paragraph {
+      color: var(--gray-300);
+      text-decoration: line-through;
+    }
+
+  }
+    button {
+      background-color: transparent;
+      border: none;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+
+      padding: .2rem;
+      margin-top: 1.2rem;
+      margin-right: .9rem;
+
+      cursor: pointer;
+
+      transition: outline .1s, background-color .1s, color .1s;
+
+      &:hover {
+        outline: 1px solid var(--gray-400);
+        background-color: var(--gray-400);
+
+        path {
+          color: var(--danger);
+        }
+      }
+    }
+}

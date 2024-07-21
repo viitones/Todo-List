@@ -1,0 +1,24 @@
+.nothing {
+  width: 100%;
+  margin-inline: auto;
+  padding-block: 4rem;
+  border-top: 1px solid var(--gray-400);
+
+  > div {
+    text-align: center;
+
+    img {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: var(--gray-300);
+      font-weight: bold;
+
+      &:nth-of-type(2) {
+        font-weight: normal;
+      }
+    }
+  }
+
+}
