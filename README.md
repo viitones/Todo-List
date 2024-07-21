@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# Sobre o projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://todo-list-five-delta-42.vercel.app/ 
 
-Currently, two official plugins are available:
+Todo é uma aplicação Front-End web e mobile construída como forma de desafio proposto pela [Rocketseat](https://www.rocketseat.com.br/ "Site da RocketSeat").
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação consiste basicamente em uma lista de tarefas simples onde você pode adicionar e remover tarefas a fazer e marca-las como concluídas.
 
-## Expanding the ESLint configuration
+## Layout web
+![Web 1](https://github.com/viitones/Todo-List/blob/main/public/demo.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Web 2](https://github.com/viitones/Todo-List/blob/main/public/demo-2.png)
 
-- Configure the top-level `parserOptions` property like this:
+![Web 2](https://github.com/viitones/Todo-List/blob/main/public/readme.gif)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+# Tecnologias utilizadas
+- HTML / CSS / JS / TypeScript
+- ReactJS
+## Implantação em produção
+- Front end web: Vercel
+
+# Como executar o projeto
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://https://github.com/viitones/Todo-List.git
+
+# entrar na pasta do projeto
+cd .\Todo-List\
+
+# instalar dependências
+npm install
+
+# executar o projeto
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Autor
+
+Victor Hugo da Silva Martins
+
+https://www.linkedin.com/in/victor-hugo-s-martins-7b575716a/

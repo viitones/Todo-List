@@ -74,14 +74,20 @@
 
       cursor: pointer;
 
-      transition: outline .1s, background-color .1s, color .1s;
+      transition: background-color .2s;
+
+      path {
+        fill: var(--gray-300);
+        transition: fill .2s;
+      }
+
+
 
       &:hover {
-        outline: 1px solid var(--gray-400);
         background-color: var(--gray-400);
 
         path {
-          color: var(--danger);
+          fill: var(--danger);
         }
       }
     }
